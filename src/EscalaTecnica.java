@@ -1,10 +1,12 @@
+import java.util.Objects;
+
 public class EscalaTecnica extends BaseEntity {
     private Integer codigoEscala;
     private String numeroVuelo;
     private Aeropuerto aeropuerto;
     private ProgramaVuelo programaVuelo;
 
-    public EscalaTecnica(Integer codigoEscala, String numeroVuelo, Aeropuerto aeropuerto) {
+    public EscalaTecnica(Integer codigoEscala, String numeroVuelo, Aeropuerto aeropuerto, ProgramaVuelo programaVuelo) {
         super();
         this.codigoEscala = codigoEscala;
         this.numeroVuelo = numeroVuelo;

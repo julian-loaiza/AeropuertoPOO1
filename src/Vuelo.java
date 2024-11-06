@@ -7,7 +7,7 @@ public class Vuelo extends VueloBase {
     private ProgramaVuelo programaVuelo;
 
     public Vuelo(String numeroVuelo, ModeloAvion modeloAvion,
-                 Date fecha, Integer plazasVacias) {
+                 Date fecha, Integer plazasVacias, ProgramaVuelo programaVuelo) {
         super(numeroVuelo, modeloAvion);
         this.fecha = fecha;
         this.plazasVacias = plazasVacias;
