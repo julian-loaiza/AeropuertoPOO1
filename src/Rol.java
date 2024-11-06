@@ -1,3 +1,7 @@
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Collections;
+
 // Clase Rol
 public class Rol extends BaseEntity {
     private String nombreRol;

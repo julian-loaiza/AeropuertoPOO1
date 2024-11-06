@@ -1,3 +1,7 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+
 // Clase Usuario
 public class Usuario extends BaseEntity {
     private String nombre;

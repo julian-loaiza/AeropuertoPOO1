@@ -1,3 +1,5 @@
+import java.util.Date;
+
 // Clase Vuelo
 public class Vuelo extends VueloBase {
     private Date fecha;
